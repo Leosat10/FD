@@ -1,0 +1,49 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Data (large files – don't upload to Git)
+data/
+*.csv
+*.npy
+*.parquet
+
+# Models (trained artifacts – can be large)
+models/
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter notebooks (optional – uncomment if you want to exclude)
+# *.ipynb
